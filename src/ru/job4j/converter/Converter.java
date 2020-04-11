@@ -1,16 +1,32 @@
 package ru.job4j.converter;
 
+/**
+ * Convert currency USD to RUB, EURO to RUB
+ * @author Andrey
+ */
+
 public class Converter {
+    /**
+     * @param value
+     * @return ERUO
+     */
     public static int rubleToEuro(int value) {
         int rsl = value / 70;
         return rsl;
     }
 
+    /**
+     * @param value
+     * @return USD
+     */
     public static int rubleToDollar(int value) {
         int rsl = value / 60; // формула перевода рублей в доллaры.
         return rsl;
     }
 
+    /**
+       * @param args
+     */
     public static void main(String[] args) {
         int euro = Converter.rubleToEuro(140);
         int usd = Converter.rubleToDollar(50);
