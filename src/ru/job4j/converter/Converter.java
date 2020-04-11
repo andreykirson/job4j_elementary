@@ -7,6 +7,7 @@ package ru.job4j.converter;
 
 public class Converter {
     /**
+     * Method get RUB and convert to ERUO
      * @param value
      * @return ERUO
      */
@@ -16,6 +17,7 @@ public class Converter {
     }
 
     /**
+     * Method get RUB and convert to USD
      * @param value
      * @return USD
      */
@@ -25,7 +27,8 @@ public class Converter {
     }
 
     /**
-       * @param args
+     * Method print value of corrency convertation
+     * @param args
      */
     public static void main(String[] args) {
         int euro = Converter.rubleToEuro(140);
