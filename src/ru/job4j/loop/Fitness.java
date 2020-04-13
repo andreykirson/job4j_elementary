@@ -4,11 +4,10 @@ public class Fitness {
 
     public static int calc(int ivan, int nik) {
         int month = 0;
-        while (3 * ivan * month < nik * 2) {
-            if (ivan > nik) {
-                month = 0;
-                break;
-            } else {month = month + 1;}
+        while (ivan < nik) {
+            ivan *= 3;
+            nik *= 2;
+            month++;
         }
         return month;
     }
