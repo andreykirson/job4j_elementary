@@ -10,4 +10,5 @@ public class ArrayChar {
         }
         return result;
     }
+
 }
