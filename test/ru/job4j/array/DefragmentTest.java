@@ -46,3 +46,4 @@ public class DefragmentTest {
         assertThat(compressed, is(expected));
     }
 }
+
