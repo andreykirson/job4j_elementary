@@ -12,7 +12,7 @@ public class MinDiapasonTest {
 
     @Test
     public void whenLastMin() {
-        assertThat(MinDiapason.findMin(new int[] {10, 5, 3, 1},1, 3), is(1));
+        assertThat(MinDiapason.findMin(new int[] {2, 4, 6, 8, 9, 7, 1}, 0, 6), is(1));
     }
 
     @Test

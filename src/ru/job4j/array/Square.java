@@ -6,10 +6,8 @@ public class Square {
             for (int i = 0; i < bound; i++) {
                 rst[i] = (int) Math.pow(i, 2);
             }
-            // заполнить массив через цикл элементами от 0 до bound , возведенными в квадрат
             return rst;
         }
-
         public static void main(String[] args) {
             int[] array = calculate(4);
             for (int index = 0; index < array.length; index++) {
