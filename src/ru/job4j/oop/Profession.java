@@ -38,7 +38,6 @@ public class Profession {
         }
 
     }
-
     public class Engineer extends Profession {
         public Engineer() {
             super();
@@ -53,5 +52,4 @@ public class Profession {
 
         }
     }
-
 }
