@@ -17,6 +17,7 @@ public class PointTest {
 
     @Test
     public void distance3D() {
+
         double expected = 6.92;
         Point a3D = new Point(1, 1, 1);
         Point b3D = new Point(5, 5, 5);

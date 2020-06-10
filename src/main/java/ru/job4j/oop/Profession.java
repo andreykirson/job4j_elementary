@@ -27,13 +27,10 @@ public class Profession {
         String diagnose, prescription, treatment;
 
         public String getDiagnose() {
-        }
-
-        public String prescribe() {
             return treatment;
         }
 
-        public String write() {
+         public String write() {
             return prescription;
         }
 
@@ -45,11 +42,8 @@ public class Profession {
 
         String task, decision;
 
-        public String getTask() {
-
-        }
         public String makeDecision() {
-
+            return decision;
         }
     }
 }
